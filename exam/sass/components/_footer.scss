@@ -1,0 +1,67 @@
+footer{
+    background-color: #190422;
+    padding: 70px 0;
+    p ,a{
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
+    .container{
+        .footer-content{
+            display: flex;
+            justify-content: space-between;
+
+            &--left{
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                .logo{
+                    img{
+                        max-width: 100%;
+                    }
+                }
+
+                nav{
+                    ul{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        gap: 20px;
+
+                    }
+                }
+                .icons{
+                    width: 100%;
+                }
+            }
+
+            &--right{
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                .input{
+                    position: relative;
+                    input{
+                        width: 60%;
+                        border-radius: 10px;
+                        padding: 23px 0 23px 20px;
+                        color: #736D6D;
+                        font-size: 14px;
+                        font-weight: 400;
+                    }
+                    button{
+                        padding: 16px 35px;
+                        font-size: 22px ;
+                        font-weight: 500;
+                    }
+                }
+
+                .store{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}

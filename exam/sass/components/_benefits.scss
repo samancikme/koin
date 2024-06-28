@@ -1,0 +1,47 @@
+#benefits{
+    padding: 50px 0;
+    .container{
+        .benefits-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 90px;
+            &--left{
+                img{
+                    width: 100%;
+                }
+
+            }
+
+            &--right{
+                .textbar{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    h1{
+                        font-size: 48px ;
+                        font-weight: 600;
+                    }
+                    p{
+                        font-size: 20px ;
+                        font-weight: 400;
+                    }
+
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 16px;
+                        li{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            transform: none;
+                            font-size: 20px ;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
