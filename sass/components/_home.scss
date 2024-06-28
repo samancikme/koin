@@ -1,0 +1,73 @@
+@use "../abstracts/variables" as var;
+
+
+#home{
+    background-color: var.$backround;
+    position: relative;
+    padding-bottom:50px ;
+    .container{
+        .home-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &--left{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 32px;
+                text-align: start;
+                h1{
+                    font-size: 80px;
+                    font-weight: 600;
+                    color: white;
+                }
+                p{
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: white;
+                }
+                .btn-home{
+                    font-size: 22px;
+                    align-items: center;
+                    padding: 12px 25px;
+                }
+            }
+
+            &--right{
+                width: 50%;
+                img{
+                    max-width:  100%;
+                }
+            }
+        }
+        .stat{
+            width: 90%;
+            position: absolute;
+            bottom: -100px;
+            border-radius: 16px;
+            z-index: 99;
+            background-color: white;
+            border: 1px solid black;
+            span{
+                color: #BC8AFC;
+            }
+            h1{
+                font-size: 48px;
+                font-weight: 600;
+            }
+            p{
+                font-size: 20px;
+                font-weight: 400;
+            }
+            .cards{
+                display: flex;
+                justify-content: space-between;
+                padding: 45px 100px;
+    
+                .card{
+                    
+                }
+            }
+        }
+    }
+}
